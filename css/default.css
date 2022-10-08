@@ -3,22 +3,44 @@ body{
     margin-top: 5em;
     background-color: rgb(177, 190, 201);
 
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 2.0em;
 }
 
+hr{
+    width: 75%
+}
 .projects_styling{
     margin: auto;
     margin-bottom: 2em;
     width: 50%;
 
-    background-color: royalblue;
-    
+    background-color: white;
+
     border-radius: 2em;
     border: 0.5em solid black; 
-    padding: 1.25em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    padding-bottom: 2.25em;
     width: 50em;
-    height: 12em;
+    height: 17em;
 
+    text-align: justify;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.projects_pics{
+    height: 15em;
+    width: 15em;
+
+    border: 0.2em groove rgb(0, 0, 0);
+    
+    margin-right: 2em;
+    float: left;
+}
+
+.projects_title{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    font-size: 1.5em;
 }
