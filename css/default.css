@@ -6,3 +6,19 @@ body{
     font-family: sans-serif;
     line-height: 2.0em;
 }
+
+.projects_styling{
+    margin: auto;
+    margin-bottom: 2em;
+    width: 50%;
+
+    background-color: royalblue;
+    
+    border-radius: 2em;
+    border: 0.5em solid black; 
+    padding: 1.25em;
+    width: 50em;
+    height: 12em;
+
+    font-family: 'Courier New', Courier, monospace;
+}
